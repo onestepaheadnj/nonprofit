@@ -12,9 +12,8 @@
 body {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
-  display: none;
+  transform: translateZ(0);
+  /* display: none; */
   font-family: "Bebas Neue", sans-serif;
 }
 
@@ -27,11 +26,17 @@ body {
   top: 0;
   width: 100%;
   background-color: rgba(3, 25, 38, 0);
+  transition: background-color 0.5s ease;
   color: white;
   padding: 15px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  z-index: 999;
+}
+
+#navbar.solid {
+  background-color: rgba(3, 25, 38);
 }
 
 #menu-button {
@@ -117,7 +122,7 @@ body {
 }
 
 .mission-statement-paragraph {
-  margin: 10px 10%;
+  margin: 10px 15%;
   text-align: left;
   font-size: 20px;
   line-height: 2;

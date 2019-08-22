@@ -1,15 +1,15 @@
 $(function() {
-  $("body").fadeIn(1500);
+  // $("body").fadeIn(1500);
   var slideout = new Slideout({
     panel: $("#main").get(0),
     menu: $("#menu").get(0),
     tolerance: 70,
-    ease: "ease-in",
-    duration: 400,
+    // ease: "ease-in",
+    // duration: 400,
     side: "right"
   });
 
-  $("#menu-button").on("click", function() {
+  $("#navbar").on("click", function() {
     slideout.toggle();
   });
 
@@ -20,7 +20,10 @@ $(function() {
     e.preventDefault();
     $("html, body").animate(
       {
-        scrollTop: $("#content").offset().top
+        scrollTop:
+          $("#jumbotron").position().top +
+          $("#jumbotron").outerHeight(true) -
+          81
       },
       800
     );
@@ -28,24 +31,14 @@ $(function() {
   });
 
   $(window).on("scroll", function() {
-    $("#navbar").css({
+    $("#navbar, #menu").css({
       top: $(window).scrollTop()
     });
-    if ($(window).scrollTop() >= 50) {
-      $("#navbar").animate(
-        {
-          backgroundColor: "rgba(3, 25, 38)"
-        },
-        200
-      );
-    }
-    if ($(window).scrollTop() == 0) {
-      $("#navbar").animate(
-        {
-          opacity: "rgba(3, 25, 255)"
-        },
-        200
-      );
+
+    if ($(window).scrollTop() >= 100) {
+      $("#navbar").addClass("solid");
+    } else {
+      $("#navbar").removeClass("solid");
     }
   });
 });

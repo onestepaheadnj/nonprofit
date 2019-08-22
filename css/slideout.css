@@ -1,4 +1,7 @@
-/* Slideout.js styles */
+body {
+  width: 100%;
+  height: 100%;
+}
 
 .slideout-menu {
   position: fixed;
@@ -37,9 +40,3 @@
 .slideout-open .slideout-menu {
   display: block;
 }
-
-.hamburger:focus {
-  outline: none;
-}
-
-/* Slideout.js styles end */
