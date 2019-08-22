@@ -26,7 +26,7 @@ body {
   top: 0;
   width: 100%;
   background-color: rgba(3, 25, 38, 0);
-  transition: background-color 0.5s ease;
+  transition: background-color 0.7s;
   color: white;
   padding: 15px;
   display: flex;
@@ -41,6 +41,7 @@ body {
 
 #menu-button {
   float: right;
+  cursor: pointer;
 }
 
 #menu-button span {
@@ -61,7 +62,7 @@ body {
 }
 
 #jumbotron {
-  background-image: url("../images/cosmic-timetraveler-LhDWW8PhPoE-unsplash.jpg");
+  background-image: url("../images/placeholder.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

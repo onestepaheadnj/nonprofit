@@ -1,11 +1,11 @@
 $(function() {
-  // $("body").fadeIn(1500);
+  $("body").fadeIn(1500);
   var slideout = new Slideout({
     panel: $("#main").get(0),
     menu: $("#menu").get(0),
     tolerance: 70,
-    // ease: "ease-in",
-    // duration: 400,
+    ease: "ease-in",
+    duration: 400,
     side: "right"
   });
 
@@ -27,7 +27,6 @@ $(function() {
       },
       800
     );
-    window.location.hash = "#content";
   });
 
   $(window).on("scroll", function() {
@@ -35,7 +34,7 @@ $(function() {
       top: $(window).scrollTop()
     });
 
-    if ($(window).scrollTop() >= 100) {
+    if ($(window).scrollTop() >= $("#jumbotron").height() - 81) {
       $("#navbar").addClass("solid");
     } else {
       $("#navbar").removeClass("solid");
