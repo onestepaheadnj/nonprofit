@@ -12,8 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  transform: translateZ(0);
-  /* display: none; */
+  display: none;
   font-family: "Bebas Neue", sans-serif;
 }
 
@@ -22,7 +21,9 @@ body {
 }
 
 #navbar {
-  position: fixed;
+  position: -webkit-sticky;
+  margin-bottom: -81px;
+  position: sticky;
   top: 0;
   width: 100%;
   background-color: rgba(3, 25, 38, 0);

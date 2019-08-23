@@ -29,11 +29,19 @@ $(function() {
     );
   });
 
-  $(window).on("scroll", function() {
-    $("#navbar, #menu").css({
+  slideout.on("beforeopen", function() {
+    $("#navbar").css({
       top: $(window).scrollTop()
     });
+  });
 
+  slideout.on("close", function() {
+    $("#navbar").css({
+      top: 0
+    });
+  });
+
+  $(window).on("scroll", function() {
     if ($(window).scrollTop() >= $("#jumbotron").height() - 81) {
       $("#navbar").addClass("solid");
     } else {
