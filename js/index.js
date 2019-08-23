@@ -1,5 +1,4 @@
 $(function() {
-  $("body").fadeIn(1500);
   var slideout = new Slideout({
     panel: $("#main").get(0),
     menu: $("#menu").get(0),
@@ -9,7 +8,7 @@ $(function() {
     side: "right"
   });
 
-  $("#navbar").on("click", function() {
+  $("#menu-button").on("click", function() {
     slideout.toggle();
   });
 
