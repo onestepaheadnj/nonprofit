@@ -34,3 +34,10 @@
   display: inline-block;
   top: 5px;
 }
+
+@media (max-width: 800px) {
+  #main-logo {
+    font-size: 33px;
+    top: 4px;
+  }
+}

@@ -41,7 +41,7 @@ $(function() {
   });
 
   $(window).on("scroll", function() {
-    if ($(window).scrollTop() >= $("#jumbotron").height() - 81) {
+    if ($(window).scrollTop() >= 30) {
       $("#navbar").addClass("solid");
     } else {
       $("#navbar").removeClass("solid");

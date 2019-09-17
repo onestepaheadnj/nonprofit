@@ -46,78 +46,137 @@
 }
 
 #jumbotron {
-  background-image: url("../images/DSC_0618.JPG");
+  background-image: url("../images/placeholder.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
-  padding-bottom: 50px;
+  align-items: center;
 }
 
-/* #animated-mouse {
-  width: 22px;
-  height: 40px;
-  border: 1px solid white;
-  border-radius: 10px;
-  cursor: pointer;
+.banner {
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
 }
 
-#animated-mouse::before {
-  content: "";
-  position: relative;
-  left: 50%;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
-  background-color: white;
-  transform: translateX(-50%);
-  display: inline-block;
-  animation: mouse 2s infinite;
-  opacity: 1;
+.banner:nth-child(2) {
+  font-size: 40px;
 }
-
-@keyframes mouse {
-  from {
-    opacity: 1;
-    top: 0;
-  }
-
-  to {
-    opacity: 0;
-    top: 45%;
-  }
-} */
 
 #content {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 25px 50px;
+  padding: 25px 15%;
 }
 
 #mission-statement-header {
   text-align: center;
   font-family: "Bebas Neue", sans-serif;
-  font-size: 50px;
+  font-size: 60px;
+}
+
+.quote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  padding: 20px 20px;
+  font-family: "Merriweather", "Times New Roman", Times, serif;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+.quote p {
+  display: inline;
+  font-size: 20px;
 }
 
 .mission-statement-paragraph {
-  margin: 10px 15%;
+  margin: 10px;
   text-align: left;
   font-size: 20px;
   line-height: 2;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
-  text-indent: 10%;
+  text-indent: 8%;
+}
+
+#three-pillars-para {
+  margin: 10px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 2;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#three-pillars {
+  display: flex;
+  margin: 20px 50px;
+}
+
+.pillar {
+  flex: 1;
+}
+
+.pillar-title {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.pillar-text {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.pillar-image {
+  border-radius: 50%;
+  padding: 0 60px;
+  margin: 0 auto;
 }
 
 img {
   max-width: 100%;
   max-height: 500px;
   margin: 50px 0;
+}
+
+@media (max-width: 800px) {
+  #content {
+    padding: 2px 10px;
+  }
+
+  #mission-statement-header {
+    font-size: 50px;
+  }
+
+  .quote {
+    font-size: 10px;
+  }
+
+  .mission-statement-paragraph {
+    text-align: justify;
+    text-indent: 5%;
+  }
+
+  #main-logo {
+    font-size: 33px;
+    top: 4px;
+  }
+
+  .quote {
+    padding: 10px;
+  }
+
+  .quote p {
+    font-size: 17px;
+  }
 }
