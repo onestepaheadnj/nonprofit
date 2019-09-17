@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+}
+
+body {
+  display: block !important;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+}
