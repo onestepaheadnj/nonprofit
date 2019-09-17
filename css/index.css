@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: rgba(3, 25, 38, 0);
+  background-color: rgba(3, 25, 38, 0.3);
   transition: background-color 0.4s;
   color: white;
   padding: 15px;
@@ -46,7 +46,7 @@
 }
 
 #jumbotron {
-  background-image: url("../images/placeholder.jpg");
+  background-image: url("../images/DSC_0618.JPG");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -58,7 +58,7 @@
   padding-bottom: 50px;
 }
 
-#animated-mouse {
+/* #animated-mouse {
   width: 22px;
   height: 40px;
   border: 1px solid white;
@@ -90,7 +90,7 @@
     opacity: 0;
     top: 45%;
   }
-}
+} */
 
 #content {
   width: 100%;

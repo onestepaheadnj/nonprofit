@@ -12,21 +12,21 @@ $(function() {
     slideout.toggle();
   });
 
-  $("#animated-mouse").on("click", function(e) {
-    if (slideout.isOpen()) {
-      return;
-    }
-    e.preventDefault();
-    $("html, body").animate(
-      {
-        scrollTop:
-          $("#jumbotron").position().top +
-          $("#jumbotron").outerHeight(true) -
-          81
-      },
-      800
-    );
-  });
+  // $("#animated-mouse").on("click", function(e) {
+  //   if (slideout.isOpen()) {
+  //     return;
+  //   }
+  //   e.preventDefault();
+  //   $("html, body").animate(
+  //     {
+  //       scrollTop:
+  //         $("#jumbotron").position().top +
+  //         $("#jumbotron").outerHeight(true) -
+  //         81
+  //     },
+  //     800
+  //   );
+  // });
 
   slideout.on("beforeopen", function() {
     $("#navbar").css({
