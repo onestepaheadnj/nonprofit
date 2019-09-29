@@ -1,8 +1,9 @@
 #main {
-  background-image: url("../images/placeholder.jpg");
+  /* background-image: url("../images/placeholder.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center center; */
+  background-color: #abe1fd;
 }
 
 #content {
@@ -13,21 +14,65 @@
   height: calc(100vh - 81px);
 }
 
-#content h1 {
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 40px;
-  letter-spacing: 2px;
-}
-
 #contact {
-  width: 500px;
+  width: 450px;
   /* height: 500px; */
   background-color: #fff;
+
+  box-shadow: 5px 1px 15px -5px rgba(128, 128, 128, 1);
   padding: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-input[type="text"],
-button {
+#contact h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 5px;
+}
+
+#contact p {
+}
+
+input,
+button,
+textarea {
   width: 100%;
+  outline: none;
+}
+
+#name {
+  box-shadow: none;
+  border: 1px solid grey;
+  margin: 20px 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+/* #name,
+#message {
+  border-radius: 3px;
+} */
+
+#message {
+  resize: none;
+  margin-bottom: 20px;
+  height: 100px;
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid grey;
+}
+
+#submit {
+  border: none;
+  font-size: 14px;
+  background-color: #031926;
+  border-radius: 2px;
+  color: white;
+  padding: 10px;
+  box-shadow: 5px 1px 15px -18px rgba(128, 128, 128, 1);
+}
+
+#submit:hover {
+  cursor: pointer;
 }
