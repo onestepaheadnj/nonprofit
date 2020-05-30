@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
   var slideout = new Slideout({
     panel: $("#main").get(0),
     menu: $("#menu").get(0),
@@ -8,39 +8,25 @@ $(function() {
     side: "right"
   });
 
-  $("#menu-button").on("click", function() {
+  $("#menu-button").on("click", function () {
     slideout.toggle();
   });
 
-  // $("#animated-mouse").on("click", function(e) {
-  //   if (slideout.isOpen()) {
-  //     return;
-  //   }
-  //   e.preventDefault();
-  //   $("html, body").animate(
-  //     {
-  //       scrollTop:
-  //         $("#jumbotron").position().top +
-  //         $("#jumbotron").outerHeight(true) -
-  //         81
-  //     },
-  //     800
-  //   );
-  // });
 
-  slideout.on("beforeopen", function() {
+
+  slideout.on("beforeopen", function () {
     $("#navbar").css({
       top: $(window).scrollTop()
     });
   });
 
-  slideout.on("close", function() {
+  slideout.on("close", function () {
     $("#navbar").css({
       top: 0
     });
   });
 
-  $(window).on("scroll", function() {
+  $(window).on("scroll", function () {
     if ($(window).scrollTop() >= 30) {
       $("#navbar").addClass("solid");
     } else {
