@@ -12,8 +12,6 @@ $(function () {
     slideout.toggle();
   });
 
-
-
   slideout.on("beforeopen", function () {
     $("#navbar").css({
       top: $(window).scrollTop()
