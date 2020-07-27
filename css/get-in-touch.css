@@ -16,19 +16,37 @@
 
 #contact {
   width: 450px;
-  /* height: 500px; */
+  height: 490px;
   background-color: #fff;
-
+  text-align: center;
+  position: relative;
   box-shadow: 5px 1px 15px -5px rgba(128, 128, 128, 1);
   padding: 25px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+#mail{
+  position: absolute;
+  left: 35px;
+  top: 60px;
+  width: 40px;
+  align-items: center;
+}
+#instagram{
+  position: absolute;
+  top: 60px;
+  width: 40px;
+  align-items: center;
+  right: 35px;
+}
 #contact h1 {
   font-family: "Bebas Neue", sans-serif;
   font-size: 40px;
   letter-spacing: 2px;
   margin-bottom: 5px;
+}
+
+#thanks{
+  visibility: hidden;
 }
 
 #contact p {
@@ -45,6 +63,7 @@ textarea {
   box-shadow: none;
   border: 1px solid grey;
   margin: 20px 0;
+  margin-top: 10px;
   padding: 10px;
   font-size: 15px;
 }
@@ -63,13 +82,25 @@ textarea {
   border: 1px solid grey;
 }
 
+#email {
+  box-shadow: none;
+  border: 1px solid grey;
+  /* margin: 10px 0; */
+  /* margin-top: -4px; */
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 15px;
+  
+}
+
 #submit {
   border: none;
   font-size: 14px;
   background-color: #031926;
-  border-radius: 2px;
+  /* border-radius: 2px; */
   color: white;
   padding: 10px;
+  margin-top: -4px;
   box-shadow: 5px 1px 15px -18px rgba(128, 128, 128, 1);
 }
 

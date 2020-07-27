@@ -5,6 +5,70 @@
   font-family: "Bebas Neue", sans-serif;
 }
 
+/* Cross Animation */
+.toggler{
+  width: 25px;
+  height: 30px;
+  right: 12px;
+  top: 27px;
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.hamburger{
+  transition: all 0.4s ease-in;
+}
+
+.toggler:checked + .hamburger{
+  transform: rotate(135deg);
+}
+.toggler:checked:hover + .hamburger{
+  transform: rotate(225deg);
+}
+.toggler:checked + .hamburger>div:before,
+.toggler:checked + .hamburger>div:after{
+  top: 0px;;
+  transform: rotate(90deg);
+}
+.hamburger div{
+  position: relative;
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hamburger > div:before,
+.hamburger > div:after{
+  content: '';
+  position: absolute;
+  background-color: inherit;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+}
+.hamburger > div:after{
+  top: 10px;
+}
+
+/* */
+
+#menu-button {
+  float: right;
+}
+
+#menu-button span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 10px 0;
+  background-color: white;
+}
+
 #links {
   list-style-type: none;
   text-align: right;

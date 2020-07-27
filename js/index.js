@@ -8,7 +8,7 @@ $(function () {
     side: "right"
   });
 
-  $("#menu-button").on("click", function () {
+  $(".toggler").on("click", function () {
     slideout.toggle();
   });
 

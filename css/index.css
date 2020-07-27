@@ -2,7 +2,7 @@
   box-shadow: 10px 0 5px -2px rgba(0, 0, 0, 0.3);
 }
 
-#navbar {
+div#navbar {
   position: -webkit-sticky;
   margin-bottom: -81px;
   position: sticky;
@@ -23,26 +23,32 @@
   background-color: rgba(3, 25, 38);
 }
 
-#menu-button {
-  float: right;
-  cursor: pointer;
+#logo{
+  margin: 0px;
+  width: 100px;
+  display: flex;
+  position: relative;
+  top: 2px;
 }
-
-#menu-button span {
-  display: block;
-  width: 25px;
-  height: 2px;
-  margin: 6px 0;
-  background-color: white;
+#main-logo a{
+  transition: color 0.1s ease-in;
+}
+#main-logo a:hover{
+  color: #abe1fd;
 }
 
 #main-logo {
-  margin: 0;
-  margin-right: auto;
+  margin: 0 auto;
   font-size: 50px;
   position: relative;
   display: inline-block;
-  top: 5px;
+  padding-right: 75px;
+  /* margin: 0;
+  margin-right: auto;
+  font-size: 50px;
+  position: relative;
+  display: inline-block; */
+  /* top: 5px; */
 }
 
 #jumbotron {
@@ -97,7 +103,7 @@
 
 .mission-statement-paragraph {
   margin: 10px;
-  text-align: left;
+  text-align: center;
   font-size: 20px;
   line-height: 2;
   font-family: "Open Sans", sans-serif;
@@ -153,6 +159,13 @@ img {
 @media (max-width: 800px) {
   #content {
     padding: 2px 10px;
+  }
+
+  .banner{
+    font-size: 25px;
+  }
+  .banner:nth-child(2) {
+    font-size: 30px;
   }
 
   #mission-statement-header {

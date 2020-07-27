@@ -22,17 +22,39 @@
   display: block;
   width: 25px;
   height: 2px;
-  margin: 6px 0;
+  margin: 5.2px 0;
   background-color: white;
 }
 
+#logo{
+  margin: 0px;
+  width: 100px;
+  display: flex;
+  position: relative;
+  top: 2px;
+}
+#main-logo a{
+  transition: color 0.1s ease-in;
+}
+#main-logo a:hover{
+  color: #abe1fd;
+}
 #main-logo {
-  margin: 0;
-  margin-right: auto;
+  margin: 0 auto;
   font-size: 50px;
   position: relative;
   display: inline-block;
-  top: 5px;
+  padding-right: 75px;
+  text-align: center;
+  /* margin: 0;
+  margin-right: auto;
+  font-size: 50px;
+  position: relative;
+  display: inline-block; */
+  /* top: 5px; */
+}
+#main-logo:hover{
+  text-shadow: 2px;
 }
 
 @media (max-width: 800px) {
