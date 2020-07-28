@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 50px;
-  height: calc(100vh - 81px);
+  /* padding-bottom: 50px; */
+  height: calc(100vh - 91px);
 }
 
 #contact {
@@ -49,8 +49,8 @@
   visibility: hidden;
 }
 
-#contact p {
-}
+/* #contact p {
+} */
 
 input,
 button,
