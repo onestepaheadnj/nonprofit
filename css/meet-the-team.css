@@ -1,31 +1,51 @@
 #content {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-aroun;
   width: 100%;
   height: inherit;
-  /* padding: 0 50px; */
   padding: 10px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
+}
+#header{
+  padding-bottom: 10px;
+}
+#header h1{
+  /* box-shadow: 0 2px 10px rgba(0,0,0,0.1); */
+  position: relative;
+  font-family: "Bebas Neue", sans-serif;;
+  text-align: center;
+  align-items: center;
+  margin: 25px auto 25px auto;
+  color: rgba(3, 25, 38);
+  width: 350px;
+  padding: 0px 10px 0px 10px;
+  font-size: 60px;
+  background-color: #FFA540b9;
+  /* background-color: #FFA540b9; */
+  /* border-radius: 10px; */
+  /* text-decoration: underline dashed #FDAAAF;  */
 }
 
 .row {
   display: flex;
   position: relative;
   justify-content: space-around;
-  /* min-height: 0; */
-  margin-bottom: auto;
   flex-wrap: wrap;
 }
+/* .row:nth-child(5){
+  justify-content: space-evenly;
+} */
 
 .container{
   position: relative;
-  width: 160px;
+  width: 163px;
   height: 230px;
   transition: 0.3s ease-out;
   box-shadow: 0 2px 10px rgba(0,0,0,0.2);
   background-color: #abe1fd;
-  margin: 40px 5px 0px 5px;
+  /* margin: 40px 5px 0px 5px; */
+  margin: 0px 5px 40px 5px;
 }
 
 .imgbox{
@@ -36,15 +56,10 @@
 }
 
 .portrait{
-  width: 160px;
+  width: 163px;
   height: 200px;
   transition: 0.5s;
 }
-
-/* .bio{
-  font-family: "Open Sans", sans-serif;
-  font-size: 15px;
-} */
 
 .caption{
   position: absolute;
@@ -60,15 +75,16 @@
   overflow: hidden;
   box-sizing: border-box;
   color:#031926;
+  font-weight: 700;
 }
 
 .name{
   font-family:"Open Sans", sans-serif;
   font-size: 14px;
-  margin: 0;
-  margin-top: 7px;
-  margin-bottom: 3px;
+  margin: 7px 0 3px 0;
+  font-weight: 700;
 }
+
 .role{
   font-family: "Open Sans", sans-serif;
   font-size: 11.4px;
@@ -80,6 +96,9 @@
 
 .container:hover .caption{
   height: 50px;
+}
+.container:hover .bigCap{
+  height: 67px;
 }
 .container:hover .role{
   opacity: 1;

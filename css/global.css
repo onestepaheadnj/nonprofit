@@ -8,6 +8,10 @@
   font-family: "Bebas Neue";
   src: url("../fonts/BebasNeue-Regular.ttf");
 }
+@font-face {
+  font-family: "flexslider-icon";
+  src: url("../fonts/flexslider-icon.ttf");
+}
 
 html,
 body {
@@ -22,4 +26,12 @@ a{
 
 body {
   display: none;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #000;
+  margin: 1em 0;
+  padding: 0;
 }
