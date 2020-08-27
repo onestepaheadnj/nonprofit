@@ -1,3 +1,4 @@
+
 #content {
   display: flex;
   flex-direction: column;
@@ -105,6 +106,27 @@
 }
 .container:hover{
   box-shadow: 0 0 1.2em rgba(0,0,0,0.4);
+}
+
+#volunteers{
+  /* display: flex;
+  align-items: center;
+  flex-direction: column; */
+  text-align: center;  
+  padding-bottom: 5%;
+}
+
+#list-title{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+#names{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.4em;
 }
 
 /* @media (max-width: 700px) {

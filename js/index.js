@@ -14,7 +14,7 @@ $(function () {
 
   slideout.on("beforeopen", function () {
     $("#navbar").css({
-      top: $(window).scrollTop()
+      // top: $(window).scrollTop()
     });
   });
 
