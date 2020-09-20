@@ -237,7 +237,8 @@ img {
   width: 250px;
   height: 250px;
   background-color: #abe1fd;
-  border-style: solid;
+  border-style: dotted;
+  border-width: 5px;;
   margin: 25px 30px;
 }
 .bulletin img{
@@ -272,10 +273,10 @@ img {
   }
 
   .banner{
-    font-size: 25px;
+    font-size: 40px;
   }
   .banner:nth-child(2) {
-    font-size: 30px;
+    font-size: 45px;
   }
 
   #mission-statement-header {
@@ -292,7 +293,7 @@ img {
   }
 
   #main-logo {
-    font-size: 33px;
+    font-size: 39px;
     top: 4px;
   }
 
@@ -307,9 +308,14 @@ img {
     font-size: 12px;
   }
 }
-@media (max-width: 410px){
+
+@media (max-width: 430px){
   div#navbar{
     margin-bottom: -108px;
+  }
+  #main-logo {
+    font-size: 33px;
+    top: 4px;
   }
 }
 @media (max-width: 340px){
