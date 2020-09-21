@@ -237,7 +237,7 @@ img {
   width: 250px;
   height: 250px;
   background-color: #abe1fd;
-  border-style: dotted;
+  border-style: dashed;
   border-width: 5px;;
   margin: 25px 30px;
 }
