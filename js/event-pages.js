@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $('.center').slick({
     centerMode: true,
-    centerPadding: '0',
+    centerPadding: '0px',
     slidesToShow: 3,
     // fade: true,
     autoplay: false,
@@ -15,7 +15,7 @@ $(document).ready(function () {
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          centerPadding: '0px',
           slidesToShow: 1
         }
       },
@@ -32,7 +32,7 @@ $(document).ready(function () {
   });
   $('.single-item').slick({
     centerMode: true,
-    centerPadding: '48px',
+    centerPadding: '65px',
     slidesToShow: 1,
     // fade: true,
     autoplay: false,
