@@ -10,12 +10,17 @@
   <link rel="icon" href="images\Final Logo.jpg">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
   <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/global.css" />
   <link rel="stylesheet" href="css/slideout.css" />
   <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
   <link rel="stylesheet" href="css/index.css" />
+
 </head>
 
 <body>
@@ -94,74 +99,118 @@
     </div>
     <hr>
 
-    <p id="three-pillars-para">
-      The Three Pillars That Guide Our Events
-    </p>
-    <div id="three-pillars">
-      <div class="pillar">
-        <h3 class="pillar-title">Awareness</h3>
-        <img class="pillar-image" src="images/awareness.png" alt="pillar-img" />
-        <p class="pillar-text">
-          Our campaign revolves around letting people know. Be it through
-          detailed presentations, answering curious questions, or passing our
-          knowledge through simple conversation, we aim to give the children
-          all the facts so they understand why and how to be healthy.
-        </p>
-      </div>
-      <div class="pillar">
-        <h3 class="pillar-title">Prevention</h3>
-        <img class="pillar-image" src="images/prevention.jpg" alt="pillar-img" />
-        <p class="pillar-text">
-          The best way to deal with disease is to prevent ever being infected
-          by diseases. By The time one becomes infected, the damage is already
-          done. We always include a prevention component in our presentations
-          and games, and we encourage children to stay healthy by exercising,
-          having a balanced diet, and other related measures.
-        </p>
-      </div>
-      <div class="pillar">
-        <h3 class="pillar-title">Engagement</h3>
-        <img class="pillar-image" src="images\Engagement.png" alt="pillar-img" />
-        <p class="pillar-text">
-          We can provide as much information as we want, but if the children
-          ultimately are disengaged, the information will go through one ear
-          and out the other. We always try to keep the kids interested by
-          encouraging questions, creating new and creative games ourselves for
-          each and every event, and by simply getting to know the children we
-          teach on a closer level.
-        </p>
-      </div>
-    </div>
-    <hr>
-    <div class="learn-more">
-      <div id="learn-more-header">
-        <h1>Learn More</h1>
-      </div>
-      <div id="boards">
-        <div id="two-box">
-          <div class="bulletin">
-            <!-- <img src="images/bulletin-board.jpg" alt=""> -->
-            <p class="description"> We are a registered 501(c)3 nonprofit and state registered</p>
-          </div>
-          <div class="bulletin">
-            <!-- <img src="images/bulletin-board.jpg" alt=""> -->
-            <p class="description"> We are ENTIRELY student run organization; all of the work is created and executed by
-              high school students</p>
-          </div>
+    <div class="event-display">
+      <p id="three-pillars-para">
+        The Three Pillars That Guide Our Events
+      </p>
+      <div id="three-pillars">
+        <div class="pillar">
+          <h3 class="pillar-title">Awareness</h3>
+          <img class="pillar-image" src="images/awareness.png" alt="pillar-img" />
+          <p class="pillar-text">
+            Our campaign revolves around letting people know. Be it through
+            detailed presentations, answering curious questions, or passing our
+            knowledge through simple conversation, we aim to give the children
+            all the facts so they understand why and how to be healthy.
+          </p>
         </div>
-        <div id="one-box">
-          <div class="bulletin">
-            <!-- <img src="images/bulletin-board.jpg" alt=""> -->
-            <p class="description"> We have awarded dozens of hours of volunteer credit to our group of dedicated
-              volunteers, who are also high school students.</p>
-          </div>
+        <div class="pillar">
+          <h3 class="pillar-title">Prevention</h3>
+          <img class="pillar-image" src="images/prevention.jpg" alt="pillar-img" />
+          <p class="pillar-text">
+            The best way to deal with disease is to prevent ever being infected
+            by diseases. By The time one becomes infected, the damage is already
+            done. We always include a prevention component in our presentations
+            and games, and we encourage children to stay healthy by exercising,
+            having a balanced diet, and other related measures.
+          </p>
+        </div>
+        <div class="pillar">
+          <h3 class="pillar-title">Engagement</h3>
+          <img class="pillar-image" src="images\Engagement.png" alt="pillar-img" />
+          <p class="pillar-text">
+            We can provide as much information as we want, but if the children
+            ultimately are disengaged, the information will go through one ear
+            and out the other. We always try to keep the kids interested by
+            encouraging questions, creating new and creative games ourselves for
+            each and every event, and by simply getting to know the children we
+            teach on a closer level.
+          </p>
         </div>
       </div>
+      <div id="slide-wrapper">
+        <div class="single-item">
+          <div class="v">
+            <video class="slider-vid" controls playsinline="playsinline" muted="muted" loop="loop">
+              <source
+                src="https://media.githubusercontent.com/media/aayushg55/onestepahead/master/images\Home\Copy of DSC_0771.MOV"
+                type="video/mp4" />
+            </video>
+          </div>
+          <div class="v">
+            <video class="slider-vid" controls playsinline="playsinline" muted="muted" loop="loop">
+              <source
+                src="https://media.githubusercontent.com/media/aayushg55/onestepahead/master/images\Home\Copy of DSC_0787.MOV"
+                type="video/mp4" />
+            </video>
+          </div>
+          <div class="v">
+            <video class="slider-vid" controls playsinline="playsinline" muted="muted" loop="loop">
+              <source
+                src="https://media.githubusercontent.com/media/aayushg55/onestepahead/master/images\Home\Copy of DSC_0907.MOV"
+                type="video/mp4" />
+            </video>
+          </div>
+          <div class="slides"><img src="images\Home\o.jpg"></div>
 
+          <div class="v">
+            <video class="slider-vid" controls playsinline="playsinline" muted="muted" loop="loop">
+              <source
+                src="https://media.githubusercontent.com/media/aayushg55/onestepahead/master/images\Home\Copy of DSC_0912.MOV"
+                type="video/mp4" />
+            </video>
+          </div>
+          <div class="slides"><img src="images\Home\1.HEIC"></div>
+
+          <!-- <div class="slides"><img src="images/Events/High BP/achint explaining game.JPG"></div>
+          <div class="slides"><img src="images/Events/High BP/achint explaining game.JPG"></div>
+          <div class="slides"><img src="images/Events/High BP/achint explaining game.JPG"></div>
+          <div class="slides"><img src="images/Events/High BP/achint explaining game.JPG"></div>
+          <div class="slides"><img src="images/Events/High BP/kids playing game.JPG"></div> -->
+        </div>
+      </div>
+      <hr>
+      <div class="learn-more">
+        <div id="learn-more-header">
+          <h1>Learn More</h1>
+        </div>
+        <div id="boards">
+          <div id="two-box">
+            <div class="bulletin">
+              <!-- <img src="images/bulletin-board.jpg" alt=""> -->
+              <p class="description"> We are a registered 501(c)3 nonprofit and state registered</p>
+            </div>
+            <div class="bulletin">
+              <!-- <img src="images/bulletin-board.jpg" alt=""> -->
+              <p class="description"> We are ENTIRELY student run organization; all of the work is created and executed
+                by
+                high school students</p>
+            </div>
+
+          </div>
+          <div id="one-box">
+            <div class="bulletin">
+              <!-- <img src="images/bulletin-board.jpg" alt=""> -->
+              <p class="description"> We have awarded dozens of hours of volunteer credit to our group of dedicated
+                volunteers, who are also high school students.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-
 
   </div>
+
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -170,6 +219,18 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slideout/1.0.1/slideout.min.js"></script>
   <script src="js/global.js"></script>
   <script src="js/index.js"></script>
+  <script src="js/slick.min.js"></script>
+  <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+  <script src="js/event-pages.js"></script>
+
 </body>
+<footer>
+  <div><img id="logo" src="images\OSA Logos - Only Feet (1).png"></div>
+  <p>
+    Maintained by Aayush Gupta
+  </p>
+</footer>
 
 </html>
