@@ -39,3 +39,24 @@ h1{
   font-family: "Bebas Neue", sans-serif;
   font-size: 50px;
 }
+footer{
+  background-color: rgba(3, 25, 38);
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  height: fit-content;
+  text-align: center;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p{
+  padding-top:10px;
+  padding-bottom: 20px;
+  margin: 0;
+  /* color: #abe1fd; */
+}
+footer img{
+  padding-top: 15px;
+}
