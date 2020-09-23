@@ -19,10 +19,11 @@
   align-items: center;
   margin: 25px auto 25px auto;
   color: rgba(3, 25, 38);
+  /* color: black; */
   width: 350px;
   padding: 0px 10px 0px 10px;
   font-size: 60px;
-  background-color: #FFA540b9;
+  background-color: #abe1fd;
   /* background-color: #FFA540b9; */
   /* border-radius: 10px; */
   /* text-decoration: underline dashed #FDAAAF;  */
@@ -80,14 +81,14 @@
 }
 
 .name{
-  font-family:"Open Sans", sans-serif;
-  font-size: 14px;
+  font-family:'Nunito',"Open Sans", sans-serif;
+  font-size: 16px;
   margin: 7px 0 3px 0;
   font-weight: 700;
 }
 
 .role{
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Nunito',"Open Sans", sans-serif;
   font-size: 11.4px;
   text-align: center;
   margin: 0;
