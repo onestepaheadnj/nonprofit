@@ -281,7 +281,7 @@ img {
   display: flex;
   justify-content:center;
 }
-.single-item{
+.center{
   width: 95%;
   padding: 10px 30px;
   height: fit-content;
@@ -329,7 +329,7 @@ img {
   width: 100%;
   position: relative;
   z-index: 1;
-  transform: translateY(30%);
+  transform: translateY(42%);
   /* bottom: 100%; */
   outline: none;
 }
@@ -348,7 +348,7 @@ img {
 .slick-current video{
   position: relative;
   z-index: -1;
-  transform: translateY(25%);
+  transform: translateY(31%);
 }
 
 /*footer*/

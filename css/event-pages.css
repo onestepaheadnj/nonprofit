@@ -1,7 +1,143 @@
 #content{
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
+
 img{
   width: 100%;
+}
+
+.center{
+  width: 95%;
+  padding: 10px 30px;
+  height: fit-content;
+}
+.slide-wrapper{
+  display: flex;
+  justify-content:center;
+}
+.single-item{
+  width: 95%;
+  padding: 10px 30px;
+  height: fit-content;
+  /* margin-bottom: 0 !important; */
+}
+.slick-dots{
+  left: 0;
+}
+.slick-dots li button:before{
+  font-size: 30px;
+}
+.slick-next{
+  right: 0%;
+}
+.slick-next::before,
+.slick-prev::before{
+  color: black;
+}
+.slick-prev{
+  left: 0%;
+  z-index: 999;
+}
+.slides img{
+  padding: 5px;
+  transition: all;
+  z-index: 1;
+}
+.slides video{
+  padding: auto 35px;
+  transition: all;
+  z-index: 1;
+}
+.slides img:hover{
+  cursor: pointer;
+}
+
+.slick-slide{
+  outline: none;
+  align-items: center;
+}
+.slider-vid{
+  max-width: 500px;
+  /* max-height: 500px; */
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  transform: translateY(42%);
+  /* bottom: 100%; */
+  outline: none;
+}
+.slick-active{
+  opacity: 0.8;
+  z-index: -1;
+  transform: scale(1);
+}
+.slick-current{
+  opacity: 1;
+  transition: all .4s ease;
+  transform: scale(1.2);
+  z-index: 999;
+  position: relative;
+}
+.slick-current video{
+  position: relative;
+  z-index: -1;
+  transform: translateY(31%);
+}
+
+#featured-gallery{
+  width: 50%;
+}
+#other-gallery{
+  width: 100%;
+}
+
+.header h1{
+  text-align: center;
+  color: rgb(3,25,28);
+  background-color: #abe1fd;
+  font-size: 55px;
+  margin: 0;
+  padding: 20px;
+}
+#upper{
+  padding: 40px 10px 50px 10px;
+  display: flex;
+}
+#other-gallery{
+  padding-top: 20px;
+}
+#featured-gallery .slick-prev{
+  left: 40%;
+  transform: translateY(540%);
+  /* transform: translate(50%, -50%); */
+  z-index: 999;
+}
+#featured-gallery .slick-next{
+  right: 40%;
+  transform: translateY(540%);
+  z-index: 999;
+}
+
+/* box with tabs*/
+#box{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#tabs{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+}
+.tab-title{
+  font-size: 30px;
+  background-color: #abe1fd;
+  border-radius: 50%;
 }
