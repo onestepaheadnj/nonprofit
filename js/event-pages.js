@@ -32,7 +32,7 @@ $(document).ready(function () {
   });
   $('.single-item').slick({
     centerMode: true,
-    // centerPadding: '50px',
+    centerPadding: '0px',
     slidesToShow: 1,
     // fade: true,
     autoplay: false,
