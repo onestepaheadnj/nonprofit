@@ -156,9 +156,7 @@ img{
   border-bottom: none;
 }
 
-[data-tab-content]{
-  display: hidden;
-}
+
 /* #synopsis{
   padding-left: 0;
 }
@@ -170,6 +168,21 @@ img{
   width: 100%;
   background-color: #abe1fd;
   border: solid 1px black;
+}
+[data-tab-content]{
+  display: none;
+}
+.active[data-tab-content]{
+  display: block;
+}
+.tab-title{
+  cursor: pointer;
+}
+.tab-title:hover{
+  background-color:#abe1fdaf;
+}
+.tab-title.active{
+  background-color:#abe1fdaf;
 }
 @media (max-width: 800px) {
   .header h1{
