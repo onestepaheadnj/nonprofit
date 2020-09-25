@@ -1,3 +1,11 @@
+const tags = document.querySelectorAll('[data-tabe-target]')
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    const target = document.querySelector(tab.dataset.tabTarget)
+    target.classList('active-tab')
+  })
+})
 $(document).ready(function () {
   $('.center').slick({
     centerMode: true,

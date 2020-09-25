@@ -155,6 +155,10 @@ img{
   border: solid 1px black;
   border-bottom: none;
 }
+
+[data-tab-content]{
+  display: hidden;
+}
 /* #synopsis{
   padding-left: 0;
 }
