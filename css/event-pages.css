@@ -21,7 +21,7 @@ img{
   justify-content:center;
 }
 .single-item{
-  width: 95%;
+  width: 100%;
   padding: 10px 30px;
   height: fit-content;
   /* margin-bottom: 0 !important; */
@@ -90,7 +90,9 @@ img{
 }
 
 #featured-gallery{
-  width: 50%;
+  width: 44%;
+  margin-bottom: 20px;
+
 }
 #other-gallery{
   width: 100%;
@@ -102,44 +104,71 @@ img{
   background-color: #abe1fd;
   font-size: 55px;
   margin: 0;
-  padding: 20px;
+  padding: 12px;
 }
 #upper{
   padding: 40px 10px 50px 10px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 #other-gallery{
   padding-top: 20px;
 }
 #featured-gallery .slick-prev{
   left: 40%;
-  transform: translateY(540%);
-  /* transform: translate(50%, -50%); */
+  top: 110%;
   z-index: 999;
 }
 #featured-gallery .slick-next{
   right: 40%;
-  transform: translateY(540%);
+  top: 110%;
   z-index: 999;
+}
+#featured-gallery .slick-current{
+  transform: scale(1);
+}
+#featured-gallery .single-item{
+  padding: 0;
 }
 
 /* box with tabs*/
 #box{
   display: flex;
   flex-direction: column;
-  width: 50%;
+  /* padding-top: 20px; */
+  /* background: #abe1fd; */
 }
 
 #tabs{
   display: flex;
   flex-direction: row;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .tab-title{
-  font-size: 30px;
+  font-size: 2.7vw;
   background-color: #abe1fd;
-  border-top-right-radius: 8%;
-  border-top-left-radius: 8%;
-  padding: 7px;
+  padding: 7px 12px;
+  margin-bottom: 0px;
+  margin-top: 0;
+  border: solid 1px black;
+  border-bottom: none;
+}
+/* #synopsis{
+  padding-left: 0;
+}
+#game{
+  padding-right: 0;
+} */
+#info{
+  height: 80%;
+  width: 100%;
+  background-color: #abe1fd;
+  border: solid 1px black;
+}
+@media (max-width: 800px) {
+  .header h1{
+    font-size: 40px;
+  }
 }

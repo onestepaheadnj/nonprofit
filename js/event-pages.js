@@ -32,7 +32,7 @@ $(document).ready(function () {
   });
   $('.single-item').slick({
     centerMode: true,
-    centerPadding: '65px',
+    // centerPadding: '50px',
     slidesToShow: 1,
     // fade: true,
     autoplay: false,
@@ -45,7 +45,7 @@ $(document).ready(function () {
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          // centerPadding: '80px',
           slidesToShow: 1
         }
       },
@@ -54,7 +54,7 @@ $(document).ready(function () {
         settings: {
           arrows: true,
           centerMode: true,
-          centerPadding: '40px',
+          // centerPadding: '40px',
           slidesToShow: 1
         }
       }

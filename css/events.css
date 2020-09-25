@@ -18,10 +18,10 @@
   padding: 0 41px;
 }
 
-h1, p {
+h1, #overview p {
   margin: 10px;
 }
-p{
+#overview p{
   font-family: "Open Sans", sans-serif;
   font-size: 25px;
 }
