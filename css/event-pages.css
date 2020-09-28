@@ -169,10 +169,10 @@ img{
   background-color: #abe1fd;
   border: solid 1px black;
 }
-[data-tab-content]{
+/* [data-tab-content]{
   display: none;
 }
-.active[data-tab-content]{
+.actives[data-tab-content]{
   display: block;
 }
 .tab-title{
@@ -181,9 +181,9 @@ img{
 .tab-title:hover{
   background-color:#abe1fdaf;
 }
-.tab-title.active{
+.tab-title.actives{
   background-color:#abe1fdaf;
-}
+} */
 @media (max-width: 800px) {
   .header h1{
     font-size: 40px;
