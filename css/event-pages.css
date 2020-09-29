@@ -221,6 +221,10 @@ img{
   .header h1{
     font-size: 40px;
   }
+  .tab-title{
+    font-size: 13.5px;
+    padding: 5px 11px;
+  }
 }
 @media (max-width: 600px) {
   #upper{
@@ -239,13 +243,13 @@ img{
   font-size: 13px;
   }
   .tab-title{
-    font-size: 20px;
-    padding: 6px 18px;
+    font-size: 18px;
+    padding: 5px 17px;
   }
 }
 @media (max-width: 400px) {
   .tab-title{
-    font-size: 13px;
-    padding: 5px 10px;
+    font-size: 10px;
+    padding: 3px 9px;
   }
 }
