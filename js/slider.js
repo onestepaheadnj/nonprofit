@@ -31,7 +31,7 @@ $(document).ready(function () {
     ]
   });
   $('.single-item').slick({
-    centerMode: true,
+    // centerMode: true,
     centerPadding: '0px',
     slidesToShow: 1,
     // fade: true,
@@ -44,7 +44,7 @@ $(document).ready(function () {
         breakpoint: 768,
         settings: {
           arrows: true,
-          centerMode: true,
+          // centerMode: true,
           // centerPadding: '80px',
           slidesToShow: 1
         }
@@ -53,7 +53,7 @@ $(document).ready(function () {
         breakpoint: 480,
         settings: {
           arrows: true,
-          centerMode: true,
+          // centerMode: true,
           // centerPadding: '40px',
           slidesToShow: 1
         }
