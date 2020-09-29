@@ -68,7 +68,7 @@ img{
   width: 100%;
   position: relative;
   z-index: 1;
-  transform: translateY(42%);
+  /* transform: translateY(42%); */
   /* bottom: 100%; */
   outline: none;
 }
@@ -87,7 +87,7 @@ img{
 .slick-current video{
   position: relative;
   z-index: -1;
-  transform: translateY(31%);
+  /* transform: translateY(31%); */
 }
 #featured-gallery{
   width: 45%;
