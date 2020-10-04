@@ -68,8 +68,6 @@ img{
   width: 100%;
   position: relative;
   z-index: 1;
-  /* transform: translateY(42%); */
-  /* bottom: 100%; */
   outline: none;
 }
 .slick-active{
@@ -80,14 +78,13 @@ img{
 .slick-current{
   opacity: 1;
   transition: all .4s ease;
-  transform: scale(1.3);
+  transform: scale(1.25);
   z-index: 999;
   position: relative;
 }
 .slick-current video{
   position: relative;
   z-index: -1;
-  /* transform: translateY(31%); */
 }
 #featured-gallery{
   width: 45%;
